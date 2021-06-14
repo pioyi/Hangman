@@ -1,4 +1,4 @@
-class Hangman():
+class Hangman:
     def __init__(self, word, attempts = 6):
         self.word = word.lower()
         self.lives = attempts
